@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuGaDoces</title>
+    <link rel="stylesheet" href="meucss.css">
+</head>
+<body>
+    <h1>GUGA DOCES</h1>
+    <main>
+        <div>
+            <img src="images/cardapio.jpg" alt="Cardápio" class="cardapio" onclick="abrirModal(this)">
+        </div>
+    </main>
+
+    <div id="modal" class="modal">
+        <span class="fechar" onclick="fecharModal()">&times;</span>
+        <img class="modal-conteudo" id="imagemModal">
+    </div>
+
+    <script src="meuscript.js"></script>
+
+    <footer>
+        <h2>Entre em contato</h2>
+        <div class="centralizando-wpp">
+            <a href="https://wa.me/5585987664988" target="_blank">
+               <img src="images/logoWapp.png" alt="" class="logoWapp"> 
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
